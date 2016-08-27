@@ -386,8 +386,6 @@ article {
 
 /* BRANDS */
 .brands {
-  width: 234px;
-  margin: 0 auto;
   text-align: justify;
 }
 .brands:after {
@@ -398,15 +396,13 @@ article {
 .brands__brand {
   background: url(../img/brands_sprite.png) no-repeat;
   display: inline-block;
-  margin-top: 47px;
+
 }
 .brands__brand1 {
   background: url(../img/brands_sprite.png) 0 0 no-repeat;
   width: 75px;
   height: 75px;
-  margin-left: 15px;
-  margin-top: 49px;
-}
+  }
 .brands__brand1:hover {
   background: url(../img/brands_sprite.png) 0 -76px no-repeat;
 }
@@ -414,8 +410,6 @@ article {
   background: url(../img/brands_sprite.png) -79px 0 no-repeat;
   width: 75px;
   height: 75px;
-  margin-right: 16px;
-  margin-top: 49px;
 }
 .brands__brand2:hover {
   background: url(../img/brands_sprite.png) -79px -76px no-repeat;
@@ -424,7 +418,6 @@ article {
   background: url(../img/brands_sprite.png) -152px 0 no-repeat;
   width: 75px;
   height: 75px;
-  margin-left: 18px;
 }
 .brands__brand3:hover {
   background: url(../img/brands_sprite.png) -152px -76px no-repeat;
@@ -433,7 +426,6 @@ article {
   background: url(../img/brands_sprite.png) -226px 0 no-repeat;
   width: 75px;
   height: 75px;
-  margin-right: 14px;
 }
 .brands__brand4:hover {
   background: url(../img/brands_sprite.png) -226px -76px no-repeat;
@@ -442,7 +434,6 @@ article {
   background: url(../img/brands_sprite.png) -302px 0 no-repeat;
   width: 105px;
   height: 75px;
-  margin-top: 25px;
 }
 .brands__brand5:hover {
   background: url(../img/brands_sprite.png) -302px -76px no-repeat;
@@ -451,10 +442,16 @@ article {
   background: url(../img/brands_sprite.png) -405px 0 no-repeat;
   width: 87px;
   height: 75px;
-  margin-top: 25px;
 }
 .brands__brand6:hover {
   background: url(../img/brands_sprite.png) -405px -76px no-repeat;
+}
+
+
+.comments {
+  background: #ececec;
+  border-top: 1px solid lightgray;
+  width: 100%;
 }
 
 /* FOOTER */

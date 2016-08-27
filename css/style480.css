@@ -54,6 +54,9 @@
    display: block;
    text-shadow: 1px 1px 3px #000;
  }
+ .header__submenu_item {
+   list-style-type: none;
+ }
 
 
 
@@ -280,6 +283,7 @@ article {
   text-align: left;
   margin-right: -27px;
 }
+.main__ygol {display: none;}
 .main__otzuv__h2-1 {
   font-family: 'League Gothic', sans-serif;
   font-size: 24px;

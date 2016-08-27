@@ -179,8 +179,8 @@ header {
 
 .article--form {
  position: absolute;
- top: 1700px;
- left: 655px;
+ top: 1583px;
+ left: 386px;
 }
 .article--form label {
  background: #fff;
@@ -285,8 +285,8 @@ header {
 }
 /* ARTICLE*/
 article {
- background: gray;
- height: 1209px;
+ background: #f6f6f6;
+ height: 608px;
  box-shadow: 1px 1px 10px;
 }
 .article {
@@ -317,10 +317,18 @@ article {
  z-index: 1;
  background: #fff;
  width: 428px;
- height: 275px;
+ height: 271px;
  padding: 22px 35px;
  text-align: left;
  margin-left: 214px;
+ position: relative;
+}
+.main__ygol {
+  position: absolute;
+  top: 250px;
+  left: 347px;
+  border: 20px solid transparent;
+  border-right: 20px solid white;
 }
 .main__otzuv__h2-1 {
  display: inline-block;
@@ -428,81 +436,99 @@ article {
  height: 1px;
  width: 100%;
  background: #e6e6e6;
- margin-top: 86px;
+ margin-top: 12px;
 }
 
 /* BRANDS */
 .brands {
- width: 234px;
+ width: 778px;
  margin: 0 auto;
- text-align: justify;
+ padding-top: 22px;
 }
-.brands:after {
- content: '';
- display: inline-block;
- width: 100%;
+
+/* COMMENTS */
+.comments {
+  height: 397px;
+  text-align: center;
+      padding: 93px 190px;
+  display: table;
 }
-.brands__brand {
- background: url(../img/brands_sprite.png) no-repeat;
- display: inline-block;
- margin-top: 47px;
+.comments__div1,
+.comments__div2,
+.comments__div3,
+.comments__div4,
+.comments__div5 {
+  display: table-cell;
+	vertical-align: top;
+  text-align: left;
+
 }
-.brands__brand1 {
- background: url(../img/brands_sprite.png) 0 0 no-repeat;
- width: 75px;
- height: 75px;
- margin-left: 15px;
- margin-top: 49px;
+.comments__div1 {
+  width: 330px;
+  padding-right: 43px;
 }
-.brands__brand1:hover {
- background: url(../img/brands_sprite.png) 0 -76px no-repeat;
+.comments__div1__logo {
+  margin: 5px auto 15px 2px;
 }
-.brands__brand2 {
- background: url(../img/brands_sprite.png) -79px 0 no-repeat;
- width: 75px;
- height: 75px;
- margin-right: 16px;
- margin-top: 49px;
+.comments__div1__h4 {
+  color: #c5c5c5;
+  text-shadow: 1px 1px 3px #fff;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: normal;
 }
-.brands__brand2:hover {
- background: url(../img/brands_sprite.png) -79px -76px no-repeat;
+.comments__div1__p {
+  padding-top: 10px;
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
 }
-.brands__brand3 {
- background: url(../img/brands_sprite.png) -152px 0 no-repeat;
- width: 75px;
- height: 75px;
- margin-left: 18px;
+.comments__div2 {
+  width: 330px;
+  padding-right: 22px;
+  padding-left: 17px;
 }
-.brands__brand3:hover {
- background: url(../img/brands_sprite.png) -152px -76px no-repeat;
+.comments__div2__h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #000;
+  text-align: left;
 }
-.brands__brand4 {
- background: url(../img/brands_sprite.png) -226px 0 no-repeat;
- width: 75px;
- height: 75px;
- margin-right: 14px;
+.comments__div2__p {
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-top: 5px;
 }
-.brands__brand4:hover {
- background: url(../img/brands_sprite.png) -226px -76px no-repeat;
+.comments__div3 {
+ width: 330px;
+ padding-left: 38px;
 }
-.brands__brand5 {
- background: url(../img/brands_sprite.png) -302px 0 no-repeat;
- width: 105px;
- height: 75px;
- margin-top: 25px;
+.comments__div3__h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  color: #000;
+  text-align: left;
 }
-.brands__brand5:hover {
- background: url(../img/brands_sprite.png) -302px -76px no-repeat;
+.comments__div3__p {
+  font-family: 'Open Sans Light', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  margin-top: 5px;
 }
-.brands__brand6 {
- background: url(../img/brands_sprite.png) -405px 0 no-repeat;
- width: 87px;
- height: 75px;
- margin-top: 25px;
+.comments__div4 {
+  display: none;
 }
-.brands__brand6:hover {
- background: url(../img/brands_sprite.png) -405px -76px no-repeat;
+.comments__div5 {
+  display: none;
 }
+
 
 /* FOOTER */
 .footer {

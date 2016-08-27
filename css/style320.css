@@ -118,7 +118,7 @@ vertical-align: sub;
 .header__form {
 position: relative;
 top: 58px;
-left: 12px;
+left: 124px;
 text-align: center;
 }
 .header__form input {
@@ -278,6 +278,7 @@ padding: 22px 35px;
 text-align: left;
 margin-right: -27px;
 }
+.main__ygol {display: none;}
 .main__otzuv__h2-1 {
 font-family: 'League Gothic', sans-serif;
 font-size: 24px;
@@ -298,7 +299,7 @@ padding-top: 7px;
 padding-left: 3px;
 line-height: 24px;
 }
-                                                .main__otzuv__p__span {
+                                                .main__otzuv__p__960 {
                                                   display: none;
                                                 }
 
@@ -453,6 +454,10 @@ margin-top: 25px;
 }
 .brands__brand6:hover {
 background: url(../img/brands_sprite.png) -405px -76px no-repeat;
+}
+
+.comments {
+  display: none;
 }
 
 /* FOOTER */
