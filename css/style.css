@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+ @font-face {
+   font-family:"Open Sans Light";
+   src:url("fonts/Open_Sans_Light/OpenSans-Light.eot?") format("eot"),
+   url("fonts/Open_Sans_Light/OpenSans-Light.woff") format("woff"),
+   url("fonts/Open_Sans_Light/OpenSans-Light.ttf") format("truetype"),
+   url("fonts/Open_Sans_Light/OpenSans-Light.svg#OpenSans-Light") format("svg");
+   font-weight:normal;
+   font-style:normal;
+ }
+header {
+  background: url(../img/fon.jpg) no-repeat;
+  background-position: center top;
+}
+.logo {
+  float: left;
+  margin-top: 51px;
+  margin-left: 190px;
+}
+nav {
+  float: right;
+  margin-right: 190px;
+  margin-top: 71px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 26px;
+  color: #fff;
+
+}
+.cleaner {
+  clear: both;
+}
+.scroll {
+  position: relative;
+  top: 165px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.info {
+  position: absolute;
+  top: 72px;
+  left: 190px;
+}
+h3 {
+
+  font-size: 33px;
+  color: #edbfff;
+  margin-top: -7px;
+  letter-spacing: -1px;
+}
+.icopy {
+  position: absolute;
+  top: 60px;
+  left: 806px;
+  z-index: 1;
+}
+.iphone {
+  position: absolute;
+  left: 882px;
+  top: -18px;
+  z-index: 2;
+}
+.play {
+  position: absolute;
+  top: 132px;
+  left: 943px;
+  z-index: 3;
+}
+h1 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 61px;
+  color: #fff;
+}
+h3 {
+  font-family: 'League Gothic', sans-serif;
+  font-size: 32px;
+  color: #edbfff;
+}
+.scroll p {
+  font-family:"Open Sans Light", sans-serif;;
+  color: #fff;
+  font-size: 18px;
+  width: 500px;
+}
