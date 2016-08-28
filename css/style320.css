@@ -465,6 +465,9 @@ background: url(../img/brands_sprite.png) -405px -76px no-repeat;
 height: 201px;
 background: url(../img/footer.jpg) bottom no-repeat;
 }
+.footer__menu {
+  display: none;
+}
 .footer__p {
 font-family: 'Open Sans Light', Arial, sans-serif;
 color: #fff;

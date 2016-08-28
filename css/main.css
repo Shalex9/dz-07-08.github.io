@@ -51,15 +51,8 @@
    font-family: 'League Gothic', sans-serif;
    font-size: 24px;
    color: #fff;
-   display: block;
    text-shadow: 1px 1px 3px #000;
  }
-
-
-
-
-
-
 /* SCROLL */
 .header__scroll {
   width: 327px;
@@ -341,7 +334,6 @@ article {
   letter-spacing: -.1px;
 }
 .posted__post1__text__span3 {
-  display: none;
   font-family: 'Open Sans Light', sans-serif;
   font-weight: normal;
   line-height: 27px;
@@ -456,7 +448,6 @@ article {
 
 /* FOOTER */
 .footer {
-  height: 201px;
   background: url(../img/footer.jpg) bottom no-repeat;
 }
 .footer__p {
@@ -464,7 +455,6 @@ article {
   color: #fff;
   font-size: 12px;
   text-shadow: 1px 1px 5px #000;
-  padding-top: 39px;
   text-align: center;
 }
 .footer__span {
