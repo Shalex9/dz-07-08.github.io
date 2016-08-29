@@ -30,15 +30,13 @@
  header {
    background: url(../img/fon.jpg) no-repeat;
    background-position: center top;
-                                           height: 517px;
-                                           border-bottom: 1px solid black;
+   border-bottom: 1px solid black;
  }
  .header__logo {
    text-align: center;
    padding-top: 50px;
  }
  .header__menu_list {
-   position: relative;
   text-align: center;
   margin-top: 30px;
  }
@@ -70,12 +68,14 @@
   width: 30px;
   height: 40px;
   margin-top: 134px;
+  cursor: pointer;
 }
 .header__scroll__right {
   display: inline-block;
   background: url(../img/slider_arrows.png) -30px 0 no-repeat;
-  width: 30px;
+  width: 28px;
   height: 40px;
+  cursor: pointer;
 }
 .header__info {
   display: inline-block;
@@ -94,12 +94,8 @@
 }
 .header__h3 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 19px;
   font-weight: normal;
   color: #edbfff;
-  margin-top: -4px;
-  margin-left: 9px;
-  letter-spacing: -0.4px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .header__p {
@@ -116,10 +112,8 @@
 /* slider navigation*/
 .header__form {
   width: 100px;
-  position: relative;
-  top: 58px;
-  left: 12px;
   text-align: center;
+  margin: 0 auto;
 }
 .header__form input {
 	display: none;
@@ -154,11 +148,6 @@
 	left: -18px;
 }
 
-.article--form {
-  position: absolute;
-  top: 1480px;
-  left: 655px;
-}
 .article--form label {
   background: #fff;
   border: 1px solid #e7e7e7;
@@ -193,15 +182,6 @@
 .about__company3 {
   margin: 0 auto;
 }
-.about__company1 {
-
-}
-.about__company2 {
-  margin-top: 19px;
-}
-.about__company3 {
-  margin-top: 35px;
-}
 .about__company__sprajt {
   background: url(../img/sprajt.png)no-repeat;
   width: 30px;
@@ -212,14 +192,11 @@
   margin-left: 4px;
 }
 .about__company__text {
-  width: 206px;
-  margin-left: 17px;
   display: inline-block;
   text-align: left;
 }
 .about__company__text__h2 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 24px;
   color: #fff;
   font-weight: normal;
   letter-spacing: .3px;
@@ -229,6 +206,7 @@
   color: #fff;
   font-size: 16px;
   line-height: 25px;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .about__company__text__a {
@@ -242,17 +220,14 @@
   margin-top: 12px;
 }
 .about__company__text__a:hover {
-  text-shadow: 2px 2px 2px #fff;
+  text-shadow: 1px 1px 10px #fff;
 }
 
 /* ARTICLE*/
 article {
   background: #f9f9f9;
-  height: 1209px;
-  box-shadow: 1px 1px 10px;
 }
 .main {
-  width: 338px;
   margin: 0 auto;
 }
 .main__img {
@@ -268,21 +243,15 @@ article {
   display: inline-block;
   z-index: 1;
   background: #fff;
-  width: 257px;
-  height: 275px;
-  padding: 22px 35px;
   text-align: left;
-  margin-right: -27px;
 }
 .main__otzuv__h2-1 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 24px;
   color: #000;
   font-weight: normal;
 }
 .main__otzuv__h2-2 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 24px;
   color: #edbfff;
   font-weight: normal;
   line-height: 20px;
@@ -290,14 +259,8 @@ article {
 .main__otzuv__p {
   font-family:"Open Sans Light";
   font-size: 16px;
-  padding-top: 7px;
-  padding-left: 3px;
   line-height: 24px;
 }
-                                                  .main__otzuv__p__span {
-                                                    display: none;
-                                                  }
-
 /* POSTS */
 .posted {
   margin: 0 auto;
@@ -360,12 +323,9 @@ article {
 }
 .posted__h3 {
   font-family: 'League Gothic', sans-serif;
-  font-size: 19px;
   font-weight: normal;
   color: #000;
   text-align: right;
-  margin-top: 11px;
-  margin-right: 10px;
   letter-spacing: -0.3px;
 }
 
