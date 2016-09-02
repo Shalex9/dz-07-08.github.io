@@ -444,20 +444,34 @@ display: none;
   margin: 0 auto;
 }
 .header__menu_list--footer {
-  padding-top: 44px;
+  padding-top: 35px;
   width: 434px;
   margin-left: 14px;
   width: 435px;
   display: flex;
   justify-content: space-between;
-  margin-top: 0;
+  margin-top: 0px;
+  background: none;
+  border: none;
+  position: initial;
+  overflow: visible;
+}
+.header__menu_item--footer {
+    border-top: none;
 }
 .header__menu_a--footer {
   font-size: 20px;
 }
+.header__menu_list--footer:hover {
+  height: 50px;
+}
+.header__menu_item--footer:hover {
+  border-bottom: 2px solid #edbfff;
+  background: none;
+}
 .footer__p {
   font-size: 12px;
-  margin: 47px auto auto -8px;
+  margin: 50px auto auto 32px;
   width: 480px;
   text-align: center;
  }

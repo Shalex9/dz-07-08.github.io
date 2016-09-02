@@ -1,9 +1,14 @@
 header {
   height: 846px;
 }
+.header {
+  width: 960px;
+  text-align: left;
+  margin: 0 auto;
+}
 .header__logo {
   text-align: left;
-  margin-left: 191px;
+  margin-left: -5px;
   display: inline-block;
 }
 .header__menu {
@@ -40,19 +45,25 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
 }
+.header__scroll__width {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
 .header__scroll:after {
  content: '';
  display: inline-block;
  width: 100%;
 }
 .header__scroll__left {
- margin-left: -34px;
+ margin-left: -100px;
 }
 
 .header__info {
  position: absolute;
  display: inline-block;
- margin: 70px auto auto 200px;
+ margin: 70px auto auto 4px;
  width: 505px;
  text-align: left;
 }
@@ -60,7 +71,7 @@ header {
  display: inline-block;
  position: relative;;
  top: -18px;
- margin-left: 814px;
+     left: -75px;
 }
 .header__phone__play {
   position: absolute;
@@ -102,7 +113,7 @@ header {
 .header__form {
   position: relative;
   top: 256px;
-  left: 278px;
+  left: 283px;
 
 }
 .header__form input {
@@ -142,7 +153,6 @@ header {
 .about {
  background: linear-gradient(to top, #36293e, #745183);
  margin-left: -5px;
- box-shadow: 1px 1px 10px;
  height: 340px;
 }
 .about__width {
@@ -222,7 +232,7 @@ header {
 article {
  background: #f6f6f6;
  height: 608px;
- box-shadow: 1px 1px 10px;
+ box-shadow: 1px 6px 10px;
 }
 .article {
   text-align: justify;
@@ -240,7 +250,7 @@ article {
 }
 .main {
   margin: 102px auto;
-  margin-left: 1px;
+  margin-left: -3px;
 }
 .main__img {
  position: absolute;
@@ -296,7 +306,7 @@ article {
 .article--form {
  position: absolute;
  top: 1583px;
- left: 386px;
+ left: 189px;
 }
 .article--form label {
   background: #fff;
@@ -308,7 +318,7 @@ article {
 
 /* POSTS */
 .posted {
-  margin: 126px auto auto 54px;
+  margin: 126px auto auto 48px;
   width: 455px;
 }
 .posted__h1 {
@@ -392,12 +402,13 @@ article {
 .comments {
   height: 397px;
   text-align: center;
-      padding: 93px 190px;
-  display: table;
+  padding-top: 92px;
+  box-shadow: 3px 6px 10px;
 }
 .comments__width {
   width: 960px;
   margin: 0 auto;
+  margin-left: -5px;
 }
 .comments__div1,
 .comments__div2,
@@ -480,10 +491,11 @@ article {
 .footer {
  height: 115px;
  background: url(../img/footer.jpg) bottom no-repeat;
+ box-shadow: inset 1px 3px 10px;
 }
 .footer__width {
   width: 960px;
-  margin: 0 auto;
+  margin: 0 auto auto -4px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
