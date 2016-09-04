@@ -103,10 +103,8 @@ header {
 }
 .header__scroll__right {
   position: absolute;
-  right: -273px;
-  top: 179px;
-  margin-right: 142px;
-  display: none;
+  top: 134px;
+  margin-left: 963px;
 }
 
 /* slider navigation*/
@@ -306,7 +304,7 @@ article {
 .article--form {
  position: absolute;
  top: 1583px;
- left: 189px;
+ left: 375px;
 }
 .article--form label {
   background: #fff;
@@ -408,7 +406,6 @@ article {
 .comments__width {
   width: 960px;
   margin: 0 auto;
-  margin-left: -5px;
 }
 .comments__div1,
 .comments__div2,
@@ -495,7 +492,7 @@ article {
 }
 .footer__width {
   width: 960px;
-  margin: 0 auto auto -4px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
