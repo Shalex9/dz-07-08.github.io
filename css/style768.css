@@ -54,7 +54,7 @@ header {
 }
 .header__scroll__left {
   position: absolute;
-  margin-left: -11px;
+
   margin-top: 179px;
 }
 
@@ -105,16 +105,17 @@ header {
   display: none;
 }
 .header__scroll__right {
+  position: absolute;
   vertical-align: top;
   text-align: right;
   margin-top: 180px;
+  margin-left: 720px;
 }
 
 /* slider navigation*/
 .header__form {
   position: relative;
   top: 112px;
-  left: 829px;
 }
 .header__form input {
  display: none;

@@ -1,7 +1,10 @@
+.header__menu {
+  display: flex;
+  justify-content: center;
+}
 .header__menu_list {
   position: absolute;
   z-index: 50;
-  margin-left: 28px;
   margin-top: 17px;
   overflow: hidden;
   transition: height 0.2s linear;
@@ -42,6 +45,9 @@ margin: 0 auto;
 text-align: justify;
 margin-top: 59px;
 margin-bottom: 122px;
+}
+.header__scroll__width {
+  text-align: center;
 }
 .header__scroll:after {
 content: '';
@@ -208,7 +214,7 @@ box-shadow: 1px 1px 10px;
 position: relative;
 text-align: center;
 width: 320px;
-margin: 0 auto auto -10px;
+margin: 0 auto;
 }
 .main__img {
 position: absolute;

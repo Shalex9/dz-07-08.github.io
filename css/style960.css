@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 631px;
-  margin-left: 171px;
+  margin-left: 159px;
   position: relative;
   top: -15px;
 }
@@ -104,7 +104,7 @@ header {
 .header__scroll__right {
   position: absolute;
   top: 134px;
-  margin-left: 963px;
+  margin-left: 916px;
 }
 
 /* slider navigation*/
@@ -218,7 +218,7 @@ header {
   margin-right: 7px;
 }
 .about__company3 {
-  margin-left: 52px;
+  margin-left: 35px;
 }
 .about__company3__sprajt {
   background: url(../img/sprajt.png) -60px 0 no-repeat;
@@ -459,8 +459,9 @@ article {
   margin-top: 5px;
 }
 .comments__div3 {
- width: 330px;
- padding-left: 38px;
+  width: 330px;
+  padding-left: 23px;
+  padding-right: 15px;
 }
 .comments__div3__h3 {
   font-family: 'League Gothic', sans-serif;
@@ -491,7 +492,7 @@ article {
  box-shadow: inset 1px 3px 10px;
 }
 .footer__width {
-  width: 960px;
+  width: 940px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
